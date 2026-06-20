@@ -1,0 +1,7 @@
+# Netlify configuration file
+# Redirect all requests to index.html for SPA routing
+/*    /index.html   200
+
+# Prevent caching of index.html
+/index.html
+  Cache-Control: no-cache, no-store, must-revalidate
